@@ -1,0 +1,57 @@
+/* Background */
+.stApp {
+    background: #f4f6f9;
+}
+
+/* Title */
+h1 {
+    font-size: 38px !important;
+    font-weight: 700;
+    color: #111827;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 25px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    font-size: 15px;
+    font-weight: 600;
+    color: #374151;
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+.stButton button {
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.stButton button:hover {
+    background: #1d4ed8;
+}
+
+/* Chat bubbles */
+.stChatMessage {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Dataframe */
+div[data-testid="stDataFrame"] {
+    background: white;
+    border-radius: 10px;
+}
