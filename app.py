@@ -7,7 +7,7 @@ import io
 
 #CONFIG 
 
-WEBHOOK_URL = "http://localhost:5678/webhook/analyze-data"
+WEBHOOK_URL = "https://n8n-ai-agent-vda0.onrender.com/webhook/analyze-data"
 
 st.set_page_config(
     page_title="AI Data Analyst",
